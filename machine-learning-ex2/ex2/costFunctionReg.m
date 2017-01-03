@@ -29,7 +29,7 @@ p=pl+pr;
 j1 = (1/m)*(sum(p,1));
 
 thetaT = theta;
-thetaT(1) = 0;
+thetaT(1) = 0; %making the first element of thetat vector Zero to avoid error caused by "1" 
 
 j2=0;
 len=size(thetaT,1);
