@@ -15,7 +15,7 @@ theta = zeros(size(X, 2), 1);
 theta = pinv(X' * X) * X' * y;
 
 
-%pinv returns the pseudo inverse of matrix
+%pinv returns the sudo inverse of matrix
 
 % -------------------------------------------------------------
 
